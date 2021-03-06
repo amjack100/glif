@@ -1,7 +1,6 @@
-Glob to Gif
+## Glob pattern to .gif
 
-Generates a gif from image files of a glob pattern
-
+Generates an animated .gif from image files of a wildcard pattern, ex. "./*.png"
 ## Installation
 
 ```bash
@@ -11,7 +10,7 @@ pip install glif
 ## Usage
 
 ```bash
-glif ~/images/*.png output.gif
+glif "~/images/*.png" output.gif
 ```
 ...which will create a file ./output.gif with frames based on an ordered list of all .png files in ./images/
 
